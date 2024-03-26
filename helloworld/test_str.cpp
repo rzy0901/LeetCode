@@ -33,6 +33,12 @@ int main()
     // find_first_of("abc") find the first position of a, b, or c
     int pos2 = str.find_first_of("mla");
     cout << pos2 << endl;
-    cout << str.substr(0, pos2+1) << endl; 
+    cout << str.substr(0, pos2+1) << endl;
+    cout << "-----ASCII-----" << endl;
+    cout << 'A'-'a'<<endl;
+    cout << 'a'-'A'<<endl;
+    cout << 'b'-'a'<<endl;
+    cout << 'B'-'A'<<endl; 
+    cout << '9'-'0'<<endl;
     return 0;
 }
